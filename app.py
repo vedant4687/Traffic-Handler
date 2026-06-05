@@ -9,7 +9,7 @@ st.title("🚦 Smart Traffic Prediction & Optimization")
 
 st.write("Enter current traffic conditions:")
 
-# Inputs
+# Input
 avg_density = st.slider("Current Avg Density", 0.0, 1.0, 0.3)
 prev_density = st.slider("Previous Density", 0.0, 1.0, 0.3)
 prev2_density = st.slider("Previous 2-Step Density", 0.0, 1.0, 0.3)
